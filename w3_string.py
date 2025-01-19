@@ -162,3 +162,110 @@ print(type(a))
 print(type(b))
 print(type(c))'''
 #28
+'''x = int(1)   # x will be 1
+y = int(2.8) # y will be 2
+z = int("3") # z will be 3'''
+#29
+'''x = float(1)     # x will be 1.0
+y = float(2.8)   # y will be 2.8
+z = float("3")   # z will be 3.0
+w = float("4.2") # w will be 4.2'''
+#30
+'''x = str("s1") # x will be 's1'
+y = str(2)    # y will be '2'
+z = str(3.0)  # z will be "3.0"'''
+#31
+'''print("It's alright")
+print("He is called 'Johnny'")
+print('He is called "Johnny"')'''
+#32
+'''a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)'''
+#33
+'''a =\'''Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.\'''
+print(a)'''
+#34
+'''a = "Hello, World!"
+print(a[1])'''
+#35
+'''for x in "banana":
+  print(x)'''
+#36
+'''a = "Hello, World!"
+print(len(a))'''
+#37
+'''txt = "The best things in life are free!"
+print("free" in txt)'''
+#38
+'''txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
+'''
+#39
+'''txt = "The best things in life are free!"
+print("expensive" not in txt)'''
+#40
+'''txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
+'''
+#41
+'''b = "Hello, World!"
+print(b[2:5])'''
+#42
+'''b = "Hello, World!"
+print(b[:5])'''
+#43
+'''b = "Hello, World!"
+print(b[2:])'''
+#44
+'''b = "Hello, World!"
+print(b[-5:-2])'''
+#45
+'''a = "Hello, World!"
+print(a.upper())'''
+#46
+'''a = "Hello, World!"
+print(a.lower())'''
+#47
+'''a = " Hello, World! "
+print(a.strip()) # returns "Hello, World!"'''
+#48
+'''a = "Hello, World!"
+print(a.replace("H", "J"))'''
+#49
+'''a = "Hello, World!"
+print(a.split(",")) # returns ['Hello', ' World!']'''
+#50
+'''a = "Hello"
+b = "World"
+c = a + b
+print(c)'''
+#51
+'''a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)'''
+#52
+'''age = 36
+txt = f"My name is John, I am {age}"
+print(txt)'''
+#53
+'''price = 59
+txt = f"The price is {price} dollars"
+print(txt)'''
+#54
+'''price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)'''
+#55
+'''txt = f"The price is {20 * 59} dollars"
+print(txt)'''
+#56
+'''txt = "We are the so-called \"Vikings\" from the north."'''
