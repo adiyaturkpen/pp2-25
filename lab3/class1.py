@@ -5,3 +5,4 @@ class upper_str:
         self.str_=input()
     def printString(self):
         print(self.str_.upper())
+n=
